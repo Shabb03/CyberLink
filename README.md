@@ -33,19 +33,23 @@ A cyberpunk-themed mobile social media application built with a vibrant, futuris
 - **C# .NET** - Backend development
 - **WebSockets** - For real-time messaging
 - **SQL Server** - Database
-
+ 
 ## Prerequisites
+
 - [.NET SDK]
 - [Node.js & npm]
 - [SQL Server]
 
-##Configuration
+## Configuration
+
 - **Frontend API Base URL** app/config.js
 - **Backend Token** appsettings.json
 - **SQL Server Connection String** appsettings.json
 - **SMTP Service** Middleware/SMTP.cs
 
 ## Project Structure:
+
+```plaintext
 .
 ├── backend
 │   ├── Properties
@@ -117,12 +121,13 @@ A cyberpunk-themed mobile social media application built with a vibrant, futuris
 │   ├── app.json
 │   └── App.tsx
 └── README.md
+```
 
 ## Known Issues
 - [react native icons] icons do not display properly but instead display in a foreign language
 - [C# .NET websockets] unfortunately the websockets do not work as intended even after tutorials and help
 
-##Screenshots
+## Screenshots
 
 ![Login](./res/login.jpg)
 
